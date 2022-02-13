@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Brute force attack" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-13T08:36:37" hostname="LAPTOP-N2ALG3Q8" time="56.273">
+  <properties/>
+  <testcase name="Brute force attack" classname="Brute force attack" time="56.273"/>
+  <system-out><![CDATA[
+@smoke
+Scenario: Brute force attack                                          ?[90m# build/resources/main/BruteForceAttack.feature:4?[0m
+User1 -> 404
+User2 -> 404
+User3 -> 404
+User4 -> 404
+Brute force attack stopped
+  ?[32mGiven ?[0m?[32mFour users are logged in Brute force attack should be stopped?[0m ?[90m# io.cucumber.skeleton.steps.StepDefinitions.threeUsersAreLoggedIn()?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 5409
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 13, 2022 6:37:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
