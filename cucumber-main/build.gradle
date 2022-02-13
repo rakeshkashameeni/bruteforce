@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+dependencies {
+
+
+    implementation 'io.cucumber:cucumber-picocontainer:6.10.4'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'com.github.javafaker:javafaker:0.15'
+    implementation("io.github.bonigarcia:webdrivermanager:5.0.3")
+
+    implementation 'io.rest-assured:rest-assured:4.5.1'
+    implementation 'io.rest-assured:json-path:4.5.1'
+    implementation 'io.cucumber:cucumber-junit:6.10.4'
+    implementation 'io.cucumber:cucumber-java:6.10.4'
+
+    testImplementation 'io.cucumber:cucumber-java:6.10.4'
+    testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+
+
+
+
+}
+
+repositories {
+    mavenCentral()
+}
