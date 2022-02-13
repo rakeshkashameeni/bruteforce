@@ -19,7 +19,7 @@ public class HookSteps {
     }
 
     //open browser before each scenario
-    @Before
+   /* @Before
     public void startBrowser(){
 
         WebDriverManager.chromedriver().setup();
@@ -52,5 +52,5 @@ public class HookSteps {
     }
 
 
-
+*/
 }
